@@ -37,7 +37,7 @@ int main(int c, char* argv[]) {
     string left_operand = argv[1];
     string right_operand = argv[2];
 
-    // Add as much zero beind the operand with less bit where needed
+    // Add as much zero behind the operand with less bit where needed
     zero_prefix(left_operand, right_operand);
 
     char add_begins_left = left_operand[left_operand.length() - 1];
